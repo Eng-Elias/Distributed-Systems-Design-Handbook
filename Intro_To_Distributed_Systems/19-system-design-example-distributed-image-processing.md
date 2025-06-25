@@ -40,18 +40,17 @@ The architecture is asynchronous and composed of several microservices.
 
 ### High-Level Logical Diagram
 
-*<-- Placeholder for a diagram showing: User -> Orchestrator. Orchestrator communicates with Image Storage (S3), a Photo Processor service, and a Filter Manager service. An Admin also communicates with the Filter Manager. -->*
+![Distributed Image Processing](diagrams/distributed_image_processing/distributed_image_processing_diagram.drawio)
 
 1.  **Orchestrator Service:** The main entry point that coordinates the entire workflow.
 2.  **Image Storage:** A blob store like **AWS S3** for storing original and processed images.
 3.  **Filter Manager Service:** Manages the filter metadata (stored in a NoSQL DB like DynamoDB) and the filter binaries (stored in S3).
-4.  **Photo Processor Service:** The core compute engine that applies filters to images.
+4.  **Image Manager Service:** Manages the image files in S3.
+5.  **Image Processor Service:** The core compute engine that applies filters to images.
 
 ### The Asynchronous Processing Workflow
 
 The most critical part of the design is handling the `applyFilter` request without making the user wait. This is a classic use case for a message queue.
-
-*<-- Placeholder for a diagram showing: Orchestrator -> SQS Queue -> Photo Processor Cluster -->*
 
 1.  **Request:** The user sends an image and `filterId` to the **Orchestrator**.
 2.  **Upload & Enqueue:** The Orchestrator first uploads the raw image to S3 to get an `imageId`. It then places a message containing the `imageId` and `filterId` onto a queue (e.g., **AWS SQS**).
