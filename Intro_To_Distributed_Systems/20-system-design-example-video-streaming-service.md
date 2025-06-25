@@ -34,8 +34,6 @@ The system can be broken down into two distinct workflows: the **Video Processin
 
 This is the asynchronous workflow that prepares a video for streaming after it's uploaded.
 
-*<-- Placeholder for a diagram showing: Producer -> S3 -> SQS -> Transcoder Workers -> S3 & Metadata DB -->*
-
 1.  **Upload:** A content producer uploads a single, high-resolution video file to a raw storage bucket (e.g., AWS S3).
 
 2.  **Trigger Processing:** The upload to S3 triggers an event notification, which places a message into a queue (e.g., AWS SQS). This message contains information about the video file.
@@ -52,7 +50,7 @@ This is the asynchronous workflow that prepares a video for streaming after it's
 
 This is the real-time workflow that delivers video to the end-user.
 
-*<-- Placeholder for a diagram showing: User -> Streaming Service -> CDN -> User's Player -->*
+![Video Streaming Service](diagrams/video_streaming_service/video_streaming_service_diagram.png)
 
 1.  **User Clicks Play:** The user's client application (e.g., a web browser or mobile app) makes a request to our **Streaming Service**.
 
