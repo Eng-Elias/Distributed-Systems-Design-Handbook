@@ -40,7 +40,7 @@ The system consists of two types of users (the end-user and the hotel admin) and
 1.  **Availability Service:** Our core service that handles all the business logic.
 2.  **Metadata Service:** An external service that stores static hotel data (e.g., name, address, amenities). This data changes infrequently and can be heavily cached.
 
- *<-- Placeholder for a diagram showing User/Admin -> Availability Service, and Availability Service -> Metadata Service & Availability DB.*
+![Hotel Booking System](diagrams/hotel_booking_system/hotel_booking_system_diagram.png)
 
 ### Query Flow
 
