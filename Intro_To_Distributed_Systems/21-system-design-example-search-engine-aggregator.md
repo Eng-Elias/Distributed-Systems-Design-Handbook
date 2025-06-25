@@ -31,7 +31,7 @@ This document outlines the design for the aggregator/controller layer of a moder
 
 The core of the design is the **Scatter-Gather** pattern.
 
-*<-- Placeholder for a diagram showing: User -> Controller -> (Parallel calls to Weather, News, Images, etc. Subsystems) -> Controller aggregates results -> User -->*
+![Search Engine Aggregator](diagrams/search_engine_aggregator/search_engine_aggregator_diagram.png)
 
 1.  **Configuration:** The Controller starts by loading the configuration of all available backend subsystems (e.g., from a simple Config Database like DynamoDB or a configuration file). This data is heavily cached.
 2.  **Scatter:** When a user query (e.g., "what to see in New York") arrives, the Controller "scatters" it by sending it to all registered subsystems in parallel.
@@ -39,8 +39,6 @@ The core of the design is the **Scatter-Gather** pattern.
 4.  **Aggregate:** The Controller combines the collected JSON responses into a single array and sends it back to the client.
 
 ### System Architecture
-
-*<-- Placeholder for a diagram of the Controller's physical architecture: Load Balancer -> Cluster of stateless EC2 instances, each with a local cache for the subsystem config. -->*
 
 -   **Load Balancer:** Distributes incoming user traffic across the fleet of Controller instances.
 -   **Controller Service:** A cluster of identical, stateless servers (e.g., EC2 instances). Because they are stateless, they can be easily scaled horizontally to handle any amount of traffic.
