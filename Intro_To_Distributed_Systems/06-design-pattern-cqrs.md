@@ -40,3 +40,7 @@ CQRS is very commonly used with the **Event Sourcing** pattern. In this combinat
 -   **Independent Scaling:** You can scale the number of servers for your read and write workloads independently.
 -   **Optimized Data Models:** The read and write models can be tailored to their specific tasks, leading to simpler designs and better performance.
 -   **Flexibility:** You can have multiple, different query models for the same write model, serving the needs of different clients (e.g., a mobile app vs. a reporting dashboard).
+
+# Diagram
+
+![Design Pattern CQRS](diagrams/Design_Pattern_CQRS.png)
