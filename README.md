@@ -21,4 +21,5 @@ Here are some highly recommended external resources to supplement your learning:
   - [Introduction to Distributed Systems by Mohamed Mishref](https://www.youtube.com/playlist?list=PLBNC0xAA8XsjEDF_lnSolsqSD-IJ_JU8S)
 
 - **GitHub Repositories**:
-  - [System Design Primer by Karan Pratap Singh](https://github.com/karanpratapsingh/system-design)
+  - [System Design by Karan Pratap Singh](https://github.com/karanpratapsingh/system-design)
+  - [System Design Primer by Donne Martin](https://github.com/donnemartin/system-design-primer)
