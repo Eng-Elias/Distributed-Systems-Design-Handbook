@@ -17,9 +17,13 @@ This handbook is organized into the following sections:
 Here are some highly recommended external resources to supplement your learning:
 
 - **Courses**:
-  - [AWS DevOps Course by CloudNativeBaseCamp](https://cloudnativebasecamp.com/courses/aws-devops-90/)
+  - [AWS DevOps Course by CloudNativeBaseCamp - Ahmed Metwally](https://cloudnativebasecamp.com/courses/aws-devops-90/)
   - [Introduction to Distributed Systems by Mohamed Mishref](https://www.youtube.com/playlist?list=PLBNC0xAA8XsjEDF_lnSolsqSD-IJ_JU8S)
 
 - **GitHub Repositories**:
   - [System Design by Karan Pratap Singh](https://github.com/karanpratapsingh/system-design)
   - [System Design Primer by Donne Martin](https://github.com/donnemartin/system-design-primer)
+
+- **Official Resources**:
+  - [AWS Documentation](https://docs.aws.amazon.com/)
+  - [Google SRE](https://sre.google/)
