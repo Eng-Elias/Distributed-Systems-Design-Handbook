@@ -184,6 +184,10 @@ Draft the initial high-level design by identifying the major components and how 
 | **Monolithic**  | Simple to develop, test, and deploy initially. | Tightly coupled, hard to scale, single point of failure. |
 | **Microservices** | Scalable, independently deployable, resilient. | Complex, distributed system challenges, operational overhead. |
 
+### C4 Model
+
+The C4 model is a framework for visualizing the structure and behavior of a software system. It provides a way to represent different levels of detail about a system, from the highest level (System Context) to the lowest level (Component Diagram). [C4 Model](./C4_Model_Overview.md)
+
 ## 7. Detailed Design: Deep Dive
 
 Zoom into the critical components of your high-level design.
