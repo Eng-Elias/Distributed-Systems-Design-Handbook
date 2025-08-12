@@ -66,9 +66,31 @@ Let's perform back-of-the-envelope calculations based on real-world Telegram sta
 -   **Total Storage per day:** `1.6 TB + 80 TB = ~81.6 TB/day`
 -   **Total Storage for 10 years:** `81.6 TB/day * 365 days/year * 10 years = ~297 PB (Petabytes)`
 
--   **Write Bandwidth:** `(92,000 * 0.2 KB) + (5% * 92,000 * 500KB) = 2.3 GB/s`
+### Bandwidth
 
--   **Read Bandwidth:** `(460,000 * 0.2 KB) + (5% * 460,000 * 500KB) = 11.5 GB/s`
+**Write Bandwidth:**
+
+Text messages: `92,000 messages/s * 0.2 KB = 18.4 MB/s`
+
+Media messages: `92,000 messages/s * 5% * 500 KB = 2,300 MB/s`
+
+Total write bandwidth:
+
+$$
+18.4 \space MB/s + 2,300 \space MB/s = 2,318.4 \space MB/s \approx 2.3 \space GB/s
+$$
+
+**Read Bandwidth:**
+
+Text messages: `460,000 messages/s * 0.2 KB = 92 MB/s`
+
+Media messages: `460,000 messages/s * 5% * 500 KB = 11,500 MB/s`
+
+Total read bandwidth:
+
+$$
+92 \space MB/s + 11,500 \space MB/s = 11,592 \space MB/s \approx 11.6 \space GB/s
+$$
 
 ### High-level estimate
 
@@ -77,7 +99,7 @@ Let's perform back-of-the-envelope calculations based on real-world Telegram sta
 | Write RPS | ~92,000/s |
 | Read RPS | ~460,000/s |
 | Storage (10 years) | ~297 PB |
-| Bandwidth          | ~13.8 GB/s |
+| Bandwidth          | ~13.9 GB/s |
 
 ## 4. Data Model Design
 
