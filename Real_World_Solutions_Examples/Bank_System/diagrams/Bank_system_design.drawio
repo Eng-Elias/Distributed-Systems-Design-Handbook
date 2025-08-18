@@ -1,0 +1,223 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Page-1" id="ZhpZkn6zpnj-ipJnQsJ-">
+    <mxGraphModel dx="2316" dy="2491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-168" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="738.33" width="102.5" height="136.67" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-169" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="1231" y="778.33" width="102.5" height="136.67" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-166" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="1211" y="20" width="102.5" height="136.67" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-167" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="60" width="102.5" height="136.67" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.98;exitY=0.51;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-4" target="EtR31kfVMcDP_dd4IPLA-164" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="510.7272727272725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-4" value="Clients" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="471.27" width="84.25" height="84.25" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-112" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;External Payment Network" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.payment;" parent="1" vertex="1">
+          <mxGeometry x="250" y="786.25" width="190" height="110.83" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-117" value="Authorization Server (Keycloak)" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.identity_authorization_alt;" parent="1" vertex="1">
+          <mxGeometry x="840" y="-80" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-119" value="User &amp;amp; OAuth DB" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="1173" y="53.33" width="102.5" height="136.67" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-120" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Message Bus (Kafka)" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" parent="1" vertex="1">
+          <mxGeometry x="1211" y="465.06" width="121.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.961;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-157" target="EtR31kfVMcDP_dd4IPLA-123" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="955.1600000000003" y="670" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="950" y="670" />
+              <mxPoint x="1060" y="670" />
+              <mxPoint x="1060" y="842" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.005;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-157" target="EtR31kfVMcDP_dd4IPLA-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="710.5999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-145" value="Connects to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtR31kfVMcDP_dd4IPLA-144" vertex="1" connectable="0">
+          <mxGeometry x="-0.092" y="2" relative="1" as="geometry">
+            <mxPoint x="-88" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-159" target="EtR31kfVMcDP_dd4IPLA-123" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="947.7399999999998" y="980" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-123" value="Accounts DB" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="1173" y="773.33" width="102.5" height="136.67" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.154;exitY=0.641;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-162" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="530" as="targetPoint" />
+            <mxPoint x="1540" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-154" value="Consume Events from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtR31kfVMcDP_dd4IPLA-139" vertex="1" connectable="0">
+          <mxGeometry x="-0.1748" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.2;exitDx=0;exitDy=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-164" target="EtR31kfVMcDP_dd4IPLA-156" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516.3799999999997" y="487.90499999999975" as="sourcePoint" />
+            <mxPoint x="852.4200000000001" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-164" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516.3799999999997" y="510.75" as="sourcePoint" />
+            <mxPoint x="840" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-148" value="Routes to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtR31kfVMcDP_dd4IPLA-129" vertex="1" connectable="0">
+          <mxGeometry x="-0.0659" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.2;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-164" target="EtR31kfVMcDP_dd4IPLA-117" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516.3799999999997" y="487.90499999999975" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-146" value="Routes to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtR31kfVMcDP_dd4IPLA-130" vertex="1" connectable="0">
+          <mxGeometry x="0.1574" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-147" value="Routes to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtR31kfVMcDP_dd4IPLA-130" vertex="1" connectable="0">
+          <mxGeometry x="-0.3207" y="-7" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-157" target="EtR31kfVMcDP_dd4IPLA-159" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="897.5800000000004" y="740" as="sourcePoint" />
+            <mxPoint x="890.1600000000003" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-156" target="EtR31kfVMcDP_dd4IPLA-117" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.954;exitY=0.548;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.004;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-156" target="EtR31kfVMcDP_dd4IPLA-119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="967.5799999999999" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.005;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-161" target="EtR31kfVMcDP_dd4IPLA-120" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-153" value="Consume Events from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtR31kfVMcDP_dd4IPLA-138" vertex="1" connectable="0">
+          <mxGeometry x="-0.1786" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.005;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-163" target="EtR31kfVMcDP_dd4IPLA-120" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-155" value="Consume Events from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtR31kfVMcDP_dd4IPLA-140" vertex="1" connectable="0">
+          <mxGeometry x="-0.0472" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-157" target="EtR31kfVMcDP_dd4IPLA-120" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="897.5800000000004" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.004;entryY=0.665;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-156" target="EtR31kfVMcDP_dd4IPLA-120" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-152" value="Publish Events to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtR31kfVMcDP_dd4IPLA-143" vertex="1" connectable="0">
+          <mxGeometry x="0.141" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.863;exitY=0.875;exitDx=0;exitDy=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-164" target="EtR31kfVMcDP_dd4IPLA-159" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516.3799999999997" y="533.5949999999998" as="sourcePoint" />
+            <mxPoint x="832.5799999999999" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-151" value="Routes to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtR31kfVMcDP_dd4IPLA-150" vertex="1" connectable="0">
+          <mxGeometry x="0.331" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-156" value="User Service" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=hpa" parent="1" vertex="1">
+          <mxGeometry x="845" y="250" width="130" height="124.8" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-157" value="Transaction Service" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=hpa" parent="1" vertex="1">
+          <mxGeometry x="825.1600000000001" y="600" width="130" height="124.8" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-159" value="Account Service" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=hpa" parent="1" vertex="1">
+          <mxGeometry x="825.1600000000001" y="920" width="130" height="124.8" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-159" target="EtR31kfVMcDP_dd4IPLA-157" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-161" value="Fraud Detection Service" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=hpa" parent="1" vertex="1">
+          <mxGeometry x="1540" y="190" width="130" height="124.8" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-162" target="EtR31kfVMcDP_dd4IPLA-172" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-162" value="Audit Service" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=hpa" parent="1" vertex="1">
+          <mxGeometry x="1560" y="451" width="130" height="124.8" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.28;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-163" target="EtR31kfVMcDP_dd4IPLA-174" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-163" value="Notification Service" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=hpa" parent="1" vertex="1">
+          <mxGeometry x="1540" y="670" width="130" height="124.8" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-164" value="&lt;span style=&quot;color: rgb(106, 106, 106); font-size: 11px; font-weight: 700;&quot;&gt;API Gateway&lt;/span&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=ep" parent="1" vertex="1">
+          <mxGeometry x="410" y="454" width="100" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-170" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="1919" y="424.67" width="102.5" height="136.67" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-171" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="1938" y="464.67" width="102.5" height="136.67" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-172" value="Audit DB" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="459.67" width="102.5" height="136.67" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-174" value="Email Service" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.email_service;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="940" width="120.32" height="152.99" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-179" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Push Gateway" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.cmp_cloud_mobile_push;" parent="1" vertex="1">
+          <mxGeometry x="1710" y="964.55" width="145.33" height="105.45" as="geometry" />
+        </mxCell>
+        <mxCell id="EtR31kfVMcDP_dd4IPLA-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.72;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.476;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EtR31kfVMcDP_dd4IPLA-163" target="EtR31kfVMcDP_dd4IPLA-179" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

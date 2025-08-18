@@ -627,6 +627,9 @@ Let's trace a FAPI-compliant fund transfer initiated by a Third-Party Provider (
 -   If any step fails (e.g., consent mismatch, insufficient funds), the saga is rolled back. The **Transaction Service** sends a `REVERT_DEBIT` command to the **Account Service**.
 -   A `TRANSACTION_FAILED` event is published, and the TPP is notified with an appropriate error code.
 
+
+![Bank System Design](./diagrams/Bank_system_design.png)
+
 ## 8. Scalability, Security, and Other Considerations
 
 ### 8.1. Scalability
