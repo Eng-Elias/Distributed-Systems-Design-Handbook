@@ -12,6 +12,8 @@ This handbook is organized into the following sections:
 
 - **[Common Tools and Technologies](./tools_and_technologies.md)**: A guide to the most common tools, technologies, and services used in distributed systems design.
 
+- **[Real World Solutions Examples](./Real_World_Solutions_Examples/README.md)**: A collection of real-world system design examples.
+
 ## Additional Resources & References
 
 Here are some highly recommended external resources to supplement your learning:
