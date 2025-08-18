@@ -20,6 +20,8 @@ These examples provide detailed system designs including:
 
 ### 🔗 [Professional Network - LinkedIn](./Social_Network_LinkedIn/LinkedIn_System_Design.md)
 
+### 🏦 [Banking System](./Bank_System/Bank_System_Design.md)
+
 ## 📚 Prerequisites
 
 To get the most out of these examples, you should be familiar with:
