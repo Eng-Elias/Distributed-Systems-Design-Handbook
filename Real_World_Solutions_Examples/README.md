@@ -22,6 +22,10 @@ These examples provide detailed system designs including:
 
 ### 🏦 [Banking System](./Bank_System/Bank_System_Design.md)
 
+### 📺 [Video Platform - TED](./Video_Platform_TED/TED_System_Design.md)
+
+### 🌐 [GeoLocation - Google Maps](./GeoLocation_Solution_Google_Maps/Google_Maps_System_Design.md)
+
 ## 📚 Prerequisites
 
 To get the most out of these examples, you should be familiar with:
