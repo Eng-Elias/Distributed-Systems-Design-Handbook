@@ -26,6 +26,11 @@ These examples provide detailed system designs including:
 
 ### 🌐 [GeoLocation - Google Maps](./GeoLocation_Solution_Google_Maps/Google_Maps_System_Design.md)
 
+### 👨‍💻 [Developers Platform - GitHub](./Developers_Platform_GitHub/GitHub_System_Design.md)
+
+### 🤖 [AI Platform - Camb.AI](./AI_Platform_CambAI/CambAI_System_Design.md)
+
+
 ## 📚 Prerequisites
 
 To get the most out of these examples, you should be familiar with:
